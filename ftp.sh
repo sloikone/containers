@@ -1,10 +1,6 @@
 #!/bin/bash
 
-host='192.168.99.100'
 
-login='bslowik'
-
-haslo='Bartl0m!ej'
 
 ftp -i -n $host << END_SCRIPT
 quote USER $login
